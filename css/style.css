@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Philosopher:700);
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 16px; 
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+*,
+*:before,
+*:after  { box-sizing: inherit; }
+
+
+
+@media (min-width: 1075px) {
+  h1 { font-size: 4em; }
+}
+
+
