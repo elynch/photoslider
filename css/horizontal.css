@@ -43,6 +43,9 @@ header{
   left:0;
   z-index:900;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-head{
@@ -50,7 +53,7 @@ header{
   line-height: 2em;
   font-size: .9em;
   font-weight:bold;
-  padding: 0 1em;
+  padding: 0 1.5em;
   font-family: 'Lato', sans-serif;
   text-align: left;
   text-transform: uppercase;
@@ -71,10 +74,20 @@ header label:hover{
   background: #2e353b;
 }
 
-.fa{
-  text-align: right;
-  color: #788188;
-  text-decoration: none;
+.social-icons{
+  padding: 0 1.5em;
+}
+
+.social-svg{
+  fill: #a2a8ad;
+}
+
+.twitter{
+  margin-left: .3em;
+}
+
+.social-svg:hover{
+  fill: #ff7f50;
 }
 
 .slide{
@@ -177,7 +190,8 @@ header label:hover{
 }
 
 .button-nav > label:hover{
-  background-color:#788188;
+  background-color:#ff7f50;
+  box-shadow: inset 0 0 2px #3E474F;
 }
 
 
